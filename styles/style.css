@@ -1,0 +1,51 @@
+p::first-letter {
+    color:darkred;
+    background-color: darkgreen;
+    /* la siguiente linea es para el estilo mynerve de google fonts */
+    font-family: 'Mynerve', cursive;
+    font-size: 22px;
+    text-align:end;
+}
+h1 {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    color:green;
+    text-shadow: 6px 3px 7px rgb(245, 242, 242);
+    background-color: black;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover, li:hover {
+    color:hsl(0, 0%, 100%)
+}
+h2, #Brazil, .Paraguay{
+    color:rgb(196, 97, 4);
+    text-align: center;
+}
+h3, #chile, li[type]{
+    color: rgb(179, 8, 8);
+}
+h6 {
+    text-align: right;
+}
+li {
+    display: block;
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+}
+html {
+    background-color: rgb(81, 112, 81);
+}
+body {
+    width: max;
+    margin: 2 auto;
+    background-color: rgb(163, 176, 218);
+    padding: 0 20px 20px 20px;
+    border: 7px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 0%;
+}
